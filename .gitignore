@@ -30,3 +30,7 @@ hs_err_pid*
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+
+# store
+.DS_Store
