@@ -2,6 +2,7 @@ package com.mosh.Types;
 
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -33,14 +34,15 @@ public class Main {
         // chr 本质上还是数值型，支持加减法
         System.out.printf("char %c\n", chr + 1);
         //-------------------------------------------------------------//
-        ShowPrimitiveAndReference();
-        ShowStringDetail();
+        showPrimitiveAndReference();
+        showStringDetail();
+        showArray();
     }
 
     /**
      * 演示值类型与引用类型的区别
      */
-    public static void ShowPrimitiveAndReference() {
+    public static void showPrimitiveAndReference() {
         byte x, y = 1;
         x = 2;
         System.out.printf("x: %d, y: %d\n", x, y);
@@ -57,7 +59,7 @@ public class Main {
     /**
      * 演示字符串相关细节
      */
-    public static void ShowStringDetail() {
+    public static void showStringDetail() {
         String message = "hello world" + " !!";
         System.out.println(message.endsWith("!!"));
         // 字符串不可修改的特性
@@ -65,6 +67,29 @@ public class Main {
         System.out.println(message);
         System.out.println(message.toUpperCase());
         System.out.println(message);
+        System.out.println(message.indexOf('l'));
+        // index 不存在的数据返回-1
+        System.out.println(message.indexOf('~'));
     }
 
+    /**
+     * 演示Array相关细节
+     */
+    public static void showArray() {
+        /*
+        int[] numbers = new int[5];
+        numbers[0] = 3;
+        */
+        int[] numbers = {3, 2, 5, 1, 9};
+        System.out.println(Arrays.toString(numbers));
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
+
+//        int[][] MultiNumbers = {{3, 2, 1}, {2, 3}};
+        int[][] MultiNumbers = new int[2][3];
+        for (int[] multiNumber : MultiNumbers) {
+            System.out.println(Arrays.toString(multiNumber));
+        }
+
+    }
 }
