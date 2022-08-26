@@ -1,9 +1,10 @@
-// onjava/TestRange.java
+package com.onjava.onjava;// onjava/TestRange.java
 // (c)2021 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Basic test of Range.java
-import static onjava.Range.*;
+//import static onjava.Range.*;
+import static com.onjava.onjava.Range.*;
 import java.util.Arrays;
 
 public class TestRange {
