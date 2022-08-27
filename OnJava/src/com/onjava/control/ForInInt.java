@@ -1,7 +1,6 @@
 package com.onjava.control;
 
 import static com.onjava.onjava.Range.*;
-
 /**
  * @Author: Sandwich
  * @Description:
