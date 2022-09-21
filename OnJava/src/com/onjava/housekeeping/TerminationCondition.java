@@ -1,7 +1,6 @@
 package com.onjava.housekeeping;
 
 import com.onjava.onjava.Nap;
-import com.onjava.onjava.Nap.*;
 
 /**
  * @Author: Sandwich
