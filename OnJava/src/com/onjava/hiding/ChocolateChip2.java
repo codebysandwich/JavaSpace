@@ -4,7 +4,7 @@ import com.onjava.hiding.cookie2.Cookie;
 
 /**
  * @Author: Sandwich
- * @Description:
+ * @Description: 演示包外访问protected 访问权限
  * @Date: Created in 12:51 上午 2022/9/23
  */
 
