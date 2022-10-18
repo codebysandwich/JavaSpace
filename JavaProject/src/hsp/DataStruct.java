@@ -1,3 +1,13 @@
+/**
+ * File              : DataStruct.java
+ * Author            : sandwich
+ * Date              : 2022-10-14 20:04:00
+ * Last Modified Date: 2022-10-14 23:20:45
+ * Last Modified By  : sandwich
+ */
+
+package hsp;
+	
 class DataStruct {
 	public static void main(String[] args) {
 		String name = "sandwich";

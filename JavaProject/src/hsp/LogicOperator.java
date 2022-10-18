@@ -1,18 +1,18 @@
-/*
- * @Author: sandwich
- * @Date: 2022-01-18 14:19:29
- * @LastEditTime: 2022-02-03 11:33:16
- * @LastEditors: sandwich
- * @Description: In User Settings Edit
- * @FilePath: /HSP_Code/LogicOperator.java
+/**
+ * File              : LogicOperator.java
+ * Author            : sandwich
+ * Date              : 2022-10-14 20:02:58
+ * Last Modified Date: 2022-10-15 21:40:45
+ * Last Modified By  : sandwich
  */
 
+package hsp;
+
 class LogicOperator {
-    /**
-     * 程序主函数
-     * 
-     * @param args 命令行参数
-     */
+	/**
+	* 
+	* @param args
+	*/
     public static void main(String[] args) {
         int age = 20;
         if (age >= 0 && age <= 90) {

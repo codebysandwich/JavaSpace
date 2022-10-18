@@ -1,11 +1,12 @@
-/*
- * @Author: sandwich
- * @Date: 2022-02-04 20:02:17
- * @LastEditTime: 2022-02-27 14:19:13
- * @LastEditors: sandwich
- * @Description: In User Settings Edit
- * @FilePath: /JavaSpace/HSP_Code/ConvertDetial.java
+/**
+ * File              : ConvertDetial.java
+ * Author            : sandwich
+ * Date              : 2022-10-14 20:04:44
+ * Last Modified Date: 2022-10-15 03:02:50
+ * Last Modified By  : sandwich
  */
+
+package hsp;
 
 public class ConvertDetial {
     public static void main(String[] args) {
