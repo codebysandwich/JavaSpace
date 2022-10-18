@@ -4,7 +4,7 @@ import com.mindviewinc.simple.*;
 
 /**
  * @Author: Sandwich
- * @Description:
+ * @Description: 演示引用外部class
  * @Date: Created in 10:31 下午 2022/9/21
  */
 
