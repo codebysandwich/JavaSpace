@@ -3,11 +3,11 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // {java onjava.atunit.ClassNameFinder}
-package onjava.atunit;
+package com.onjava.onjava.atunit;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
-import onjava.*;
+import com.onjava.onjava.*;
 
 public class ClassNameFinder {
   public static String thisClass(byte[] classBytes) {

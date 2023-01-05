@@ -4,13 +4,13 @@
 // Visit http://OnJava8.com for more book information.
 // An annotation-based unit-test framework
 // {java onjava.atunit.AtUnit}
-package onjava.atunit;
+package com.onjava.onjava.atunit;
 import java.lang.reflect.*;
 import java.io.*;
 import java.util.*;
 import java.nio.file.*;
 import java.util.stream.*;
-import onjava.*;
+import com.onjava.onjava.*;
 
 public class AtUnit implements ProcessFiles.Strategy {
   static Class<?> testClass;
